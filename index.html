@@ -8,27 +8,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Nanum+Gothic&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-    </svg>
     <title>Paper Studio</title>
 </head>
 <body>
     <div class="principal-container">
-        <header>
+      <header>
             <nav class="navbar__list">
-                <ul>
-                    <li><img class="logo" src="images/paper-studio-logo.png" alt="logo"></li>
+                <div class="navbar__left">
+                <img class="logo" src="images/paper-studio-logo.png" alt="logo">
+                <ul class="navbar__links">
                     <li><a class="navbar__link" href="index.html">Inicio</a></li>
                     <li><a class="navbar__link" href="pages/product.html">Productos</a></li>
                     <li><a class="navbar__link" href="pages/information.html">Información</a></li>
                     <li><a class="navbar__link" href="pages/outlet.html">Outlet</a></li>
                     <li><a class="navbar__link" href="pages/contact.html">Contacto</a></li>
-                    <i class="bi bi-cart3"></i>
-                    <li><button class=".navbar__button">Carrito</button></li>
                 </ul>
+                </div>
+
+                <div class="navbar__right">
+                    <button class="navbar__button">Carrito</button>
+                </div>
             </nav>
-        </header>
+      </header>
+
         <main>
             <div class="main-container">
                 <h1 class="main-container__title">Tu universo en Papel</h1>
