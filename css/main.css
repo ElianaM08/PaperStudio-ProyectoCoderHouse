@@ -1,145 +1,36 @@
-/* Se aplica la misma fuente de letra para todas las paginas */
-body{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-}
-
-/* Estilos en la navegacion */
-.logo{
-     height: 4em; 
-}
-
-.navbar{
-    font-weight: 400;
-}
-.navbar a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1em;
-}
-.navbar ul {
-    list-style: none;
-}
-.navbar button {
-    background-color: transparent;
-    border: 1px solid #333;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-weight: 500;
-    border-radius: 4px;
-}
-
-/* Estilos de main del inicio */
-h1{
-    text-align: center;
-    font-weight: 262;
-}
-.main-container{
-    text-align: center;
-}
-.image-principal {
-  height: 10%;
-  width: 50%;
- 
-}
-.data{
-    background-color: rgb(249, 115, 191);
-}
-.data a{
-    text-decoration: none;
-}
-.btn-outlet {
-    background-color: #f6c4e1;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-
-}
-/* Estilos de main de product */
-
-.product-filters button {
-    background: transparent;
-    border: 1px solid #ccc;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-family: "Raleway", sans-serif;
-    border-radius: 5px;
-  
-}
-.product-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-.product-price {
-    color: #555;
-    margin: 0.5rem 0;
-}
-.buy-btn {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-
-}
-.more-products {
-    text-align: center;
-    margin: 2rem 0;
-}
-.more-products button {
-    background: transparent;
-    border: 1px solid #333;
-    padding: 0.7rem 1.5rem;
-    font-weight: 600;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-/* Estilos de las preguntas frecuentes de information */
-
 .faq-container {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 .faq-item {
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 0.5rem;
-    font-family: "Raleway", sans-serif;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  font-family: "Raleway", sans-serif;
 }
 
 summary {
-    font-weight: 500;
-    font-size: 1.1rem;
-    cursor: pointer;
-    padding: 0.75rem 0;
-    list-style: none;
-    color: #333;
+  font-weight: 500;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.75rem 0;
+  list-style: none;
+  color: #333;
 }
 
 .faq-item[open] summary {
-    color: #000;  /* estilos cuando esta abierta la pregunta */
+  color: #000;
 }
 
 .faq-item p {
-    margin: 0.5rem 0 0 0;
-    font-size: 0.95rem;
-    color: #555;
+  margin: 0.5rem 0 0 0;
+  font-size: 0.95rem;
+  color: #555;
 }
 
-/* Estilos de contact*/
-
+/* ===== CONTACTO ===== */
 .contact-title p {
   font-size: 1rem;
   color: #555;
@@ -158,14 +49,14 @@ summary {
   gap: 1rem;
 }
 
-.contact-form label {
+.contact-form__label {
   font-weight: 500;
   margin-bottom: 0.25rem;
   color: #333;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form__input,
+.contact-form__textarea {
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -173,7 +64,7 @@ summary {
   font-family: inherit;
 }
 
-.contact-form button {
+.contact-form__btn {
   background-color: #333;
   color: white;
   padding: 0.75rem 1.25rem;
@@ -184,12 +75,18 @@ summary {
   align-self: center;
 }
 
-
-/* Estilos del pie de pagina*/
-
-.footer{
-    background-color: rgb(12, 12, 12);
+.contact-form__btn:hover {
+  background-color: #111;
 }
-.footer p {
-    color: aliceblue;
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: rgb(12, 12, 12);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.footer__text {
+  color: aliceblue;
+  margin: 0.3rem 0;
 }
