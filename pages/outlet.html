@@ -41,31 +41,39 @@
             </div>
         </nav>
     </header>
-        <main>
-           <h1>Outlet: Precios increíbles</h1>
-            <div class="product-filters">
-                <button>Cuadernos</button>
-                <button>Agendas</button>
-                <button>Organizadores</button>
-            </div>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="../images/doitLibreta.jpg" alt="Cuaderno A5">
-                    <p class="product-desc">Cuaderno de notas</p>
-                    <p class="product-price">$500</p>
-                    <button class="buy-btn">Comprar</button>
+    <main>
+        <h1 class="outlet-title">Outlet: Precios increíbles</h1>
+            <section class="text-center mb-4">
+                <div class="btn-group" role="group" aria-label="Filtros de productos">
+                <button type="button" class="btn btn-outline-secondary">Cuadernos</button>
+                <button type="button" class="btn btn-outline-secondary">Agendas</button>
+                <button type="button" class="btn btn-outline-secondary">Organizadores</button>
                 </div>
-                <div class="product-card">
-                    <img src="../images/notas.jpg" alt="Cuaderno A5">
-                    <p class="product-desc">cuaderno de notas</p>
-                    <p class="product-price">$500</p>
-                    <button class="buy-btn">Comprar</button>
-                </div>
-            </div>
-            <div class="more-products">
-                <button>Más productos</button>
-            </div>
-        </main>
+            </section>
+           
+        </section>
+
+        <section class="product-section__grid" aria-label="Listado de productos en promoción">
+            <article class="product-card">
+            <img class="card-img-top" src="../images/doitLibreta.jpg" alt="Cuaderno A5">
+            <p class="product-desc">Cuaderno de notas</p>
+            <p class="product-card__price">$500</p>
+            <button class="product-card__btn" type="button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+            <img class="card-img-top" src="../images/notas.jpg" alt="Cuaderno A5">
+            <p class="product-desc">Cuaderno de notas</p>
+            <p class="product-card__price ">$500</p>
+            <button class="product-card__btn" type="button">Comprar</button>
+            </article>
+        </section> 
+
+        <div class="more-products">
+            <button class="more-products__btn" type="button">Más productos</button>
+        </div>
+    </main>
+
         <footer class="footer">
             <p>© 2025 Papers Studio</p>
             <p>Contactanos:</p>
