@@ -12,53 +12,55 @@
 </head>
 <body>
     <div class="principal-container">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="images/paper-studio-logo.png" alt="Logo" class="logo" height="50">
-            </a>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/paper-studio-logo.png" alt="Logo" class="logo" height="50">
+                </a>
 
-            <!-- Botón hamburguesa -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- Links colapsables -->
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="pages/product.html">Productos</a></li>
-                <li class="nav-item"><a class="nav-link" href="pages/information.html">Información</a></li>
-                <li class="nav-item"><a class="nav-link" href="pages/outlet.html">Outlet</a></li>
-                <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contacto</a></li>
-                </ul>
+                <!-- Links colapsables -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/product.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/information.html">Información</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/outlet.html">Outlet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contacto</a></li>
+                    </ul>
 
-                <div class="d-flex align-items-center">
-                    <button class="btn btn-outline-dark">Carrito</button>
+                    <div class="d-flex align-items-center">
+                        <button class="btn btn-outline-dark">Carrito</button>
+                    </div>
                 </div>
-            </div>
-            </div>
-        </nav>
-    </header>
-     <main>
-            <div class="main-container">
-                <h1 class="main-container__title">Tu universo en Papel</h1>
-                <img class="main-container__image" src="images/cuaderno-princip.jpg" alt="Imagen principal">
-                <div class="data">
-                    <p>Envíos a todo el país</p>
-                    <button class="btn--outlet ">
-                        <a class="data__link" href="/pages/outlet.html">Vistá nuestro Outlet</a>
-                    </button>
-                    <p>Pago Seguro</p>
                 </div>
+            </nav>
+        </header>
+        <main>
+        <section class="main-container">
+            <h1 class="main-container__title">Tu universo en Papel</h1>
 
+            <div class="main-container__image-wrapper">
+             <img class="main-container__image"src="images/cuaderno-princip.jpg"alt="Imagen principal"/>
             </div>
+
+            <section class="main-container__data">
+            <p>Envíos a todo el país</p>
+            <a href="/pages/outlet.html" class="btn--outlet">Visitá nuestro Outlet</a>
+            <p>Pago Seguro</p>
+            </section>
+        </section>
         </main>
+
         <footer class="footer">
-            <p class="footer__text">© 2025 Papers Studio</p>
-            <p class="footer__text">Contactanos:</p>
-            <p class="footer__text">Instagram | WhatsApp</p>
+                <p class="footer__text">© 2025 Papers Studio</p>
+                <p class="footer__text">Contactanos:</p>
+                <p class="footer__text">Instagram | WhatsApp</p>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>

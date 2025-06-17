@@ -61,49 +61,69 @@ body {
 
 /* ===== MAIN GENERAL ===== */
 .main-container {
-  text-align: center;
-  padding: 2rem;
+  width: 100%;
 }
 
 .main-container__title {
-  font-weight: 262;
   text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  font-weight: 400;
+}
+
+/* Imagen principal */
+.main-container__image-wrapper {
+  width: 100%;
+  height: 70vh;
 }
 
 .main-container__image {
   width: 100%;
-  max-width: 800px;
-  height: auto;
-  margin: 0 auto;
+  height: 550px;
+  display: block;
+  object-fit: cover;
 }
 
-.data {
-  background-color: rgb(249, 115, 191);
+/* Sección inferior de datos */
+.main-container__data {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 1rem 0;
+  align-items: center;
+  text-align: center;
+  padding: 4rem;
+  gap: 2rem; 
+  background-color: #ee237e; 
 }
 
-.data__link {
-  text-decoration: none;
-  font-weight: 500;
-  color: #222;
+.main-container__data p,
+.main-container__data a {
+  flex: 1; 
 }
 
+/* diseño responsive a la seccion de datos inferiores */
+@media (max-width: 768px) {
+  .main-container__data {
+    flex-direction: column;
+  }
+}
+
+/* Botón tipo outlet */
 .btn--outlet {
-  background-color: #f6c4e1;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+  text-decoration: none;
   font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .btn--outlet:hover {
-  background-color: #f1a7d3;
+  background-color: #df78aa;
+  color: #fff;
 }
-
 /* ===== PRODUCTOS / OUTLET ===== */
 .product-section {
   padding: 2rem;
