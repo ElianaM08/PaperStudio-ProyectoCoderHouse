@@ -12,24 +12,35 @@
 </head>
 <body>
     <div class="product-container">
-      <header>
-            <nav class="navbar__list">
-                <div class="navbar__left">
-                <img class="logo" src="../images/paper-studio-logo.png" alt="logo">
-                <ul class="navbar__links">
-                    <li><a class="navbar__link" href="../index.html">Inicio</a></li>
-                    <li><a class="navbar__link" href="product.html">Productos</a></li>
-                    <li><a class="navbar__link" href="information.html">Información</a></li>
-                    <li><a class="navbar__link" href="outlet.html">Outlet</a></li>
-                    <li><a class="navbar__link" href="contact.html">Contacto</a></li>
-                </ul>
-                </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../images/paper-studio-logo.png" alt="Logo" class="logo" height="50">
+            </a>
 
-                <div class="navbar__right">
-                    <button class="navbar__button">Carrito</button>
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links colapsables -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="product.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="information.html">Información</a></li>
+                <li class="nav-item"><a class="nav-link" href="outlet.html">Outlet</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                </ul>
+
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-outline-dark">Carrito</button>
                 </div>
-            </nav>
-      </header>
+            </div>
+            </div>
+        </nav>
+    </header>
         <main>
             <h1>Preguntas Frecuentes</h1>
 

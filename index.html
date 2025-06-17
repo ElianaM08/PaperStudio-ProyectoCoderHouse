@@ -12,26 +12,36 @@
 </head>
 <body>
     <div class="principal-container">
-      <header>
-            <nav class="navbar__list">
-                <div class="navbar__left">
-                <img class="logo" src="images/paper-studio-logo.png" alt="logo">
-                <ul class="navbar__links">
-                    <li><a class="navbar__link" href="index.html">Inicio</a></li>
-                    <li><a class="navbar__link" href="pages/product.html">Productos</a></li>
-                    <li><a class="navbar__link" href="pages/information.html">Información</a></li>
-                    <li><a class="navbar__link" href="pages/outlet.html">Outlet</a></li>
-                    <li><a class="navbar__link" href="pages/contact.html">Contacto</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/paper-studio-logo.png" alt="Logo" class="logo" height="50">
+            </a>
+
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links colapsables -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/product.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/information.html">Información</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/outlet.html">Outlet</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contacto</a></li>
                 </ul>
-                </div>
 
-                <div class="navbar__right">
-                    <button class="navbar__button">Carrito</button>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-outline-dark">Carrito</button>
                 </div>
-            </nav>
-      </header>
-
-        <main>
+            </div>
+            </div>
+        </nav>
+    </header>
+     <main>
             <div class="main-container">
                 <h1 class="main-container__title">Tu universo en Papel</h1>
                 <img class="main-container__image" src="images/cuaderno-princip.jpg" alt="Imagen principal">
