@@ -2,7 +2,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
 }
-
+h1{
+  text-align: center;
+  padding-top: 85px;
+}
 /* ===== NAVBAR ===== */
 .logo {
   height: 4em;
@@ -125,49 +128,28 @@ body {
   color: #fff;
 }
 /* =====  OUTLET ===== */
-.outlet-title{
-  text-align: center;
-}
-.product-section {
-  padding: 2rem;
-}
-
-.product-section__filters {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.product-section__filters button {
-  background: transparent;
-  border: 1px solid #ccc;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-}
 
 .product-section__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .product-card {
-  background: #fff;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
-  overflow: hidden;
-  text-align: center;
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-    height: 100%;
-  min-height: 400px;
+  transition: transform 0.2s ease;
+  align-items: center;
 }
- 
 .card-img-top {
   width: 100%;
   height: 200px; 
@@ -184,11 +166,11 @@ body {
   background-color: #333;
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 0.8rem;
   border-radius: 6px;
   cursor: pointer;
-  font-weight: bold;
   margin-top: auto;
+  width: fit-content; 
 }
 
 .product-card__btn:hover {
@@ -278,21 +260,6 @@ summary {
   gap: 1rem;
 }
 
-.contact-form__label {
-  font-weight: 500;
-  margin-bottom: 0.25rem;
-  color: #333;
-}
-
-.contact-form__input,
-.contact-form__textarea {
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-family: inherit;
-}
-
 .contact-form__btn {
   background-color: #333;
   color: white;
@@ -311,8 +278,8 @@ summary {
 /* ===== FOOTER ===== */
 .footer {
   background-color: rgb(12, 12, 12);
-  padding: 1.5rem 0;
-  text-align: center;
+  padding: 2rem 4rem;
+  text-align:left;
 }
 
 .footer__text {
