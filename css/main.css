@@ -70,19 +70,19 @@ h1{
 .main-container__title {
   text-align: center;
   font-size: 2rem;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   font-weight: 400;
 }
 
 /* Imagen principal */
 .main-container__image-wrapper {
-  width: 100%;
+  width: 80%;
   height: 70vh;
 }
 
 .main-container__image {
   width: 100%;
-  height: 550px;
+  height: 600px;
   display: block;
   object-fit: cover;
 }
@@ -95,7 +95,7 @@ h1{
   text-align: center;
   padding: 4rem;
   gap: 2rem; 
-  background-color: #ee237e; 
+  background-color: #b27c68; 
 }
 
 .main-container__data p,
