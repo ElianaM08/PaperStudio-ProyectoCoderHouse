@@ -1,5 +1,5 @@
-@use "../abstracts/_variables";
-@use "../abstracts/_mixins";
+@use "../abstracts/_variables" as *;
+@use "../abstracts/_mixin" as *;
 
 .contact-title {
   p {

@@ -1,5 +1,6 @@
-@use "abstracts/_variables";
-@use "abstracts/_mixins";
+@use "../abstracts/_variables"as * ;
+@use "../abstracts/_mixin" as *;
+
 
 .main-container {
   width: 100%;
@@ -41,6 +42,7 @@
 .main-container__data {
   @include flex-center(row, 2rem);
   text-align: center;
+  justify-content: space-around;
   padding: 4rem;
   background-color: $color-secondary;
 

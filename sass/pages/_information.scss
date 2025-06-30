@@ -1,5 +1,5 @@
-@use "../abstracts/_variables";
-@use "../abstracts/_mixins";
+@use "../abstracts/_variables" as *;
+@use "../abstracts/_mixin" as *;
 
 
 .faq-container {
@@ -12,7 +12,7 @@
   margin-bottom: 1rem;
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.5rem;
-  font-family: $font-main;
+ 
 
   p {
     margin: 0.5rem 0 0 0;
