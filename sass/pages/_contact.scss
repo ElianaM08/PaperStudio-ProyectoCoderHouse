@@ -1,0 +1,22 @@
+@use "../abstracts/_variables";
+@use "../abstracts/_mixins";
+
+.contact-title {
+  p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+  }
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

@@ -1,0 +1,50 @@
+@use"../base/_variables";
+@use "../base/_mixins";
+
+.navbar__list {
+  @include flex-center(row, 2rem);
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: $color-light;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar__left {
+  @include flex-center(row, 2rem);
+}
+
+.navbar__links {
+  @include flex-center(row, 1.5rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: $color-text;
+  font-weight: 500;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+}
+
+.navbar__right {
+  @include flex-center(row, 1rem);
+}
+
+.navbar__button {
+  background-color: transparent;
+  border: 1px solid $color-text;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+}

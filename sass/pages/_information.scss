@@ -1,0 +1,35 @@
+@use "../abstracts/_variables";
+@use "../abstracts/_mixins";
+
+
+.faq-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  font-family: $font-main;
+
+  p {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+}
+
+summary {
+  font-weight: 500;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.75rem 0;
+  list-style: none;
+  color: $color-text;
+
+  .faq-item[open] & {
+    color: black;
+  }
+}

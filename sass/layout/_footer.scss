@@ -1,0 +1,12 @@
+@use "../abstracts/_variables";
+
+.footer {
+  background-color: rgb(40, 39, 39);
+  padding: 2rem 4rem;
+  text-align: left;
+}
+
+.footer__text {
+  color: aliceblue;
+  margin: 0.3rem 0;
+}

@@ -1,0 +1,39 @@
+@use"../abstracts/_variables" as *;
+@use "../abstracts/_mixin" as *;
+
+.navbar__button,
+.more-products__btn,
+.btn--outlet,
+.contact-form__btn {
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid;
+  background-color: transparent;
+  color: $color-text;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: $color-text;
+    color: $color-light;
+    opacity: 0.8;
+  }
+}
+
+.btn--outlet {
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+}
+
+.contact-form__btn {
+  background-color: $color-text;
+  color: $color-light;
+  padding: 0.75rem 1.25rem;
+  border: none;
+
+  &:hover {
+    background-color: $color-dark;
+  }
+}
