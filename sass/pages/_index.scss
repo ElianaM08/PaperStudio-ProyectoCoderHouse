@@ -6,8 +6,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 5rem;
-  margin: 2rem;
+  gap: 4em;
+  margin: 4rem;
   
   @include responsive(tablet) {
     margin: 0 30px;
@@ -17,15 +17,17 @@
     grid-template-columns: 1fr;
     text-align: center;
     margin: 10px;
+    gap: 2rem;
   }
 }
 
 .about-section__row--alt {
   grid-template-areas: "text image";
-  margin-left: 4em;
+
 
   @include responsive(mobile) {
     grid-template-areas: none;
+    margin-left: 0.5em;
   }
 }
 
