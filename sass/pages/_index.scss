@@ -6,9 +6,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
   margin: 2rem;
-
+  
   @include responsive(tablet) {
     margin: 0 30px;
   }
@@ -22,7 +22,7 @@
 
 .about-section__row--alt {
   grid-template-areas: "text image";
-  margin-left: 0.5em;
+  margin-left: 4em;
 
   @include responsive(mobile) {
     grid-template-areas: none;
