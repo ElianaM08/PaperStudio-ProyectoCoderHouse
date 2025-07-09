@@ -22,7 +22,7 @@
 
 .about-section__row--alt {
   grid-template-areas: "text image";
-  margin-left: 2em;
+  margin-left: 0.5em;
 
   @include responsive(mobile) {
     grid-template-areas: none;
