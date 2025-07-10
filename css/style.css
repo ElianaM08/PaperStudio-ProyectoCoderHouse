@@ -223,6 +223,7 @@ h1 {
 .footer__text {
   color: aliceblue;
   margin: 0.3rem 0;
+  text-decoration: none;
 }
 
 .about-section__row {
